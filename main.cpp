@@ -141,7 +141,7 @@ int main(int argc, char *argv[])
     w = new MainWindow;
     w->show();
     //w->showFullScreen();
-    w->setWindowTitle(QStringLiteral("АРМ РЛМ Барьер 2"));
+    w->setWindowTitle(QStringLiteral("Тайловый модуль карт"));
 
     qSetRealNumberPrecision(15);
 

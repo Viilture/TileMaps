@@ -54,6 +54,22 @@ SOURCES += \
     Graph/buttonsettings.cpp \
     Graph/journal.cpp \
     Graph/settingswid.cpp \
+    RLI/radarcontrol.cpp \
+    RLI/radardelegate.cpp \
+    RLI/rlibuffer.cpp \
+    RLI/rlicontrol.cpp \
+    RLI/rlitargetsmodel.cpp \
+    RLI/tertiaryProcessingBuffer.cpp \
+    SVOI/clusterfirst/clusterfirstabstract.cpp \
+    SVOI/clusterfirst/clusterpolar.cpp \
+    SVOI/polartogeo/polartogeo.cpp \
+    SVOI/polartogeo/polartogeoabstract.cpp \
+    SVOI/rotateangle/rotateangleabstract.cpp \
+    SVOI/rotateangle/rotatematrix.cpp \
+    SVOI/spoitoangle/spoitoangleAbstract.cpp \
+    SVOI/spoitoangle/spoitopolar.cpp \
+    SVOI/svoi.cpp \
+    SVOI/svoitarget.cpp \
     Test/testBarier2Exchange.cpp \
     Test/testsvoi.cpp \
     Test/testvideoexchange.cpp \
@@ -101,6 +117,23 @@ HEADERS += \
     Graph/buttonsettings.h \
     Graph/journal.h \
     Graph/settingswid.h \
+    RLI/radarcontrol.h \
+    RLI/radardelegate.h \
+    RLI/rlibuffer.h \
+    RLI/rlicontrol.h \
+    RLI/rlitargetsmodel.h \
+    RLI/tertiaryProcessingBuffer.h \
+    SVOI/SvoiMath.h \
+    SVOI/clusterfirst/clusterfirstabstract.h \
+    SVOI/clusterfirst/clusterpolar.h \
+    SVOI/polartogeo/polartogeo.h \
+    SVOI/polartogeo/polartogeoabstract.h \
+    SVOI/rotateangle/rotateangleabstract.h \
+    SVOI/rotateangle/rotatematrix.h \
+    SVOI/spoitoangle/spoitoangleAbstract.h \
+    SVOI/spoitoangle/spoitopolar.h \
+    SVOI/svoi.h \
+    SVOI/svoitarget.h \
     Test/testBarier2Exchange.h \
     Test/testsvoi.h \
     Test/testvideoexchange.h \
